@@ -122,9 +122,8 @@ set matchpairs+=<:>
         imap <S-F2> <ESC>:set number! relativenumber!<CR>
     " }}}
 
-    " Spelling {{{
-        map  <S-F9> :set spell!<CR>
-        imap <S-F9> <ESC>:set spell!<CR>
+    " git-conflicts {{{
+        :nmap <F9> /\(<\\|>\\|=\)\{7}<CR>
     " }}}
 
     " Search and Replace {{{
