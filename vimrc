@@ -161,6 +161,9 @@ set matchpairs+=<:>
 
     autocmd FileType sh map  <F5> :w<CR>:!$SHELL "%"<CR>
     autocmd FileType sh imap <F5> <ESC>:w<CR>:!$SHELL "%"<CR>
+
+    autocmd FileType plantuml,plant,uml,pu map <F5> :!plantuml %<CR>
+    let g:plantuml_executable_script='java -jar /usr/share/plantuml/plantuml.jar'
     " }}}
 
     " configure options for tex files {{{
