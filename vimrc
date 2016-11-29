@@ -33,9 +33,10 @@ highlight clear
 filetype plugin indent on
 
 " indentation settings {{{
-set expandtab
-set shiftwidth=4
-set softtabstop=4
+"set tabstop=x      "How far is one tab displayed. This is set later to a file-specific value.
+set expandtab       "Hitting Tab in insert mode will produce spaces
+set softtabstop=2   "If tabs get replaced by spaces, this is the amount of spaces that it's replaced with.
+set shiftwidth=4    "Re-indenting width. Used for alignment with automatic line breaks.
 set cindent
 set autoindent
 set smartindent
