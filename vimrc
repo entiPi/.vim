@@ -90,8 +90,9 @@ set undodir=~/.vim/undodir
 set tags=~/.vim/tags/
 " }}}
 
-" enable line numbering
+" enable hybrid line numbering
 set number
+set relativenumber
 
 " disable to show mode (airline does it)
 set noshowmode
