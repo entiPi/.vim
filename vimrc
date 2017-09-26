@@ -37,7 +37,6 @@ filetype plugin indent on
 set expandtab       "Hitting Tab in insert mode will produce spaces
 set softtabstop=2   "If tabs get replaced by spaces, this is the amount of spaces that it's replaced with.
 set shiftwidth=4    "Re-indenting width. Used for alignment with automatic line breaks.
-set cindent
 set autoindent
 set smartindent
 " }}}
