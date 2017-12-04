@@ -114,8 +114,12 @@ set matchpairs+=<:>
     " Navigate buffers {{{
         map  <a-left>  :bp<CR>
         imap <a-left>  <ESC>:bp<CR>
+        map  <a-j>     :bp<CR>
+        imap <a-j>     <ESC>:bp<CR>
         map  <a-right> :bn<CR>
         imap <a-right> <ESC>:bn<CR>
+        map  <a-n>     :bn<CR>
+        imap <a-n>     <ESC>:bn<CR>
     " }}}
 
     " Line numbering {{{
