@@ -99,6 +99,12 @@ set noshowmode
 " match opening and closing angle brackets
 set matchpairs+=<:>
 
+" show spaces in a disinguishable way
+"  tabs as special character
+"  trailing spaces as special character
+set list
+set listchars=tab:▸\ ,trail:·
+
 " Colorscheme {{{
     let g:solarized_termtrans = 1
     let g:solarized_termcolors = 256
