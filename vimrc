@@ -134,7 +134,7 @@ set listchars=tab:▸\ ,trail:·
     " }}}
 
     " git-conflicts {{{
-        :nmap <F9> /\(<\\|>\\|=\)\{7}<CR>
+        :nmap <F9> /\(<\\|>\\|=\\|\|\)\{7}<CR>
     " }}}
 
     " Search and Replace {{{
