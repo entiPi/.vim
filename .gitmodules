@@ -76,3 +76,6 @@
 [submodule "pack/general/start/ricofile.vim"]
 	path = pack/general/start/ricofile.vim
 	url = https://meistet3@stash.intranet.roche.com/stash/scm/skynet/ricofile.vim.git
+[submodule "pack/writing/start/surround.vim"]
+	path = pack/writing/start/surround.vim
+	url = git://github.com/tpope/vim-surround.git
