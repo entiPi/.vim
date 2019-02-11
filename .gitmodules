@@ -79,3 +79,6 @@
 [submodule "pack/writing/start/surround.vim"]
 	path = pack/writing/start/surround.vim
 	url = git://github.com/tpope/vim-surround.git
+[submodule "pack/writing/start/tablemode.vim"]
+	path = pack/writing/start/tablemode.vim
+	url = git://github.com/dhruvasagar/vim-table-mode
