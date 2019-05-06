@@ -13,9 +13,6 @@
 [submodule "pack/general/start/nerdcommenter"]
 	path = pack/general/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
-[submodule "pack/general/start/nerdtree"]
-	path = pack/general/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree
 [submodule "pack/programming/start/taglist.vim"]
 	path = pack/programming/start/taglist.vim
 	url = https://github.com/12qu/taglist.vim
