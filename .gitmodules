@@ -15,7 +15,7 @@
 	url = https://github.com/scrooloose/nerdcommenter
 [submodule "pack/programming/start/taglist.vim"]
 	path = pack/programming/start/taglist.vim
-	url = https://github.com/12qu/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim
 [submodule "pack/programming/start/YouCompleteMe"]
 	path = pack/programming/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
